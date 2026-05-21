@@ -10,9 +10,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
 
       manifest: {
-        name: 'Lemon Calc',
-        short_name: 'LemonCalc',
-        description: 'A cute calculator app',
+        name: 'yellow Calc',
+        short_name: 'YellowCalc',
+        description: 'Yellow themed calculator',
         theme_color: '#5a5a5a',
         display: 'standalone',
         background_color: '#ece59a',
@@ -24,11 +24,11 @@ export default defineConfig({
             sizes: '192x192',
             type: 'image/png',
           },
-
           {
             src: '/icon-512.png',
             sizes: '512x512',
             type: 'image/png',
+            purpose: 'any maskable',
           },
         ],
       },
